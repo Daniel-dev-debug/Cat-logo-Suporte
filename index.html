@@ -4,43 +4,54 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Catálogo de Serviços - Administrador de Banco de Dados</title>
+  <title>Administrador de Banco de Dados</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
+      background: linear-gradient(to right, #2c3e50, #3498db);
+      color: #333;
     }
     header {
-      background-color: #2c3e50;
-      color: white;
-      padding: 20px 0;
+      background-color: rgba(255, 255, 255, 0.95);
       text-align: center;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    header img {
+      max-height: 80px;
+      margin-bottom: 10px;
     }
     .container {
-      max-width: 800px;
-      margin: 20px auto;
-      background-color: white;
-      padding: 20px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 900px;
+      margin: 30px auto;
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+    h1 {
+      color: #2c3e50;
     }
     h2 {
       color: #34495e;
+      margin-top: 30px;
     }
     ul {
-      list-style-type: square;
+      list-style: square;
       padding-left: 20px;
     }
     .contact, .compliance, .payment {
-      background-color: #ecf0f1;
-      padding: 10px;
-      margin-top: 20px;
+      background-color: #f2f9ff;
+      padding: 15px;
+      margin-top: 25px;
       border-left: 5px solid #3498db;
+      border-radius: 5px;
     }
     .compliance {
-      background-color: #dff0d8;
-      border-left: 5px solid #3c763d;
+      background-color: #eaffea;
+      border-left-color: #2ecc71;
     }
     .payment {
       text-align: center;
@@ -59,17 +70,19 @@
     }
     footer {
       text-align: center;
-      padding: 10px;
+      padding: 15px;
       font-size: 0.9em;
-      color: #888;
+      color: #eee;
+      background-color: transparent;
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>Catálogo de Serviços</h1>
-    <p>Administração de Bancos de Dados e Soluções de Armazenamento</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Database-icon.svg/2048px-Database-icon.svg.png" alt="Logo">
+    <h1>Administrador de Banco de Dados</h1>
+    <p>Serviços profissionais e legalizados de administração de dados</p>
   </header>
 
   <div class="container">
@@ -79,32 +92,32 @@
       <li>Criação e manutenção de estruturas de dados (DDL)</li>
       <li>Otimização de desempenho e tuning de queries</li>
       <li>Backup, recuperação e segurança de dados</li>
-      <li>Monitoramento e manutenção preventiva de servidores de banco</li>
-      <li>Implantação de rotinas automatizadas com scripts SQL</li>
-      <li>Consultoria e suporte remoto especializado</li>
+      <li>Monitoramento e manutenção preventiva de servidores</li>
+      <li>Automatização com scripts SQL e rotinas seguras</li>
+      <li>Consultoria remota e suporte especializado</li>
     </ul>
 
     <div class="compliance">
       <strong>Legalidade e Conformidade:</strong>
-      <p>Todos os serviços prestados seguem rigorosamente as leis nacionais e as diretrizes da Stripe. Não são utilizados métodos ilícitos, engenharia reversa ou práticas proibidas. Este catálogo representa um profissional atuando de forma 100% legal e transparente.</p>
+      <p>Todos os serviços são prestados de forma totalmente legal, respeitando as leis brasileiras e as diretrizes da Stripe. Não utilizamos engenharia reversa, software pirata ou práticas não autorizadas.</p>
     </div>
 
     <div class="payment">
       <h2>Pagamento Seguro</h2>
-      <p>Para contratar nossos serviços, utilize o botão seguro da Stripe abaixo:</p>
+      <p>Para contratar nossos serviços, clique no botão seguro da Stripe:</p>
       <a href="https://buy.stripe.com/test_00g5nVcCye1HbuU6oo" class="stripe-button">Pagar com Stripe</a>
-      <p style="font-size: 0.8em; color: #666;">(Exemplo de link - substitua pelo seu link oficial do Stripe Checkout)</p>
+      <p style="font-size: 0.8em; color: #666;">(Este é um link de exemplo — substitua pelo seu link real do Stripe)</p>
     </div>
 
     <div class="contact">
-      <h2>Contato:</h2>
+      <h2>Contato</h2>
       <p><strong>E-mail:</strong> darkedenragnarok@gmail.com</p>
-      <p><strong>Telefone / WhatsApp:</strong> (11) 96090-8237</p>
+      <p><strong>WhatsApp:</strong> (11) 96090-8237</p>
     </div>
   </div>
 
   <footer>
-    &copy; 2025 Administrador de Banco de Dados. Todos os direitos reservados.
+    &copy; 2025 DBA Profissional | Todos os direitos reservados.
   </footer>
 
 </body>
